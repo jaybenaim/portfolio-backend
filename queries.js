@@ -1,10 +1,10 @@
 const Pool = require("pg").Pool;
 require("dotenv").config();
-
 const pool = new Pool({
   user: process.env.PG_USERNAME,
   host: "ec2-35-172-85-250.compute-1.amazonaws.com",
-  database: process.env.PG_PASSWORD,
+  password: process.env.PG_PASSWORD,
+  database: process.env.PG_DB,
   port: 5432
 });
 
