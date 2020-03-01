@@ -34,7 +34,7 @@ process.on("warning", e => console.warn(e.stack));
 
 app.post("/email", (req, res, next) => {
   const { name, email, message } = req.body;
-  let html = `<div>${message} <br /> from ${name}</div>`;
+  let html = `<div>${message} <br /> from ${name} - ${email}</div>`;
   let subject = `Portfolio Contact - ${name}`;
   const msg = {
     to: "benaimjacob@gmail.com",
