@@ -38,7 +38,7 @@ app.post("/email", (req, res, next) => {
   let subject = `Portfolio Contact - ${name}`;
   const msg = {
     to: "benaimjacob@gmail.com",
-    from: email,
+    from: "benaimjacob@gmail.com",
     subject,
     text: message,
     html
