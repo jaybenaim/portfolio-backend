@@ -1,0 +1,8 @@
+const CONSTANTS = {};
+CONSTANTS.ENDPOINT = {};
+
+CONSTANTS.PORT = process.env.PORT || "5000";
+CONSTANTS.ENDPOINT.HOME = "/";
+CONSTANTS.ENDPOINT.EMAIL = "/email";
+
+module.exports = CONSTANTS;
