@@ -3,6 +3,7 @@ const express = require("express"),
   ctrlHome = require("../controllers/home"),
   ctrlEmail = require("../controllers/email"),
   ctrlRepo = require("../controllers/repo");
+ctrlUser = require("../controllers/user");
 
 const router = express.Router();
 
@@ -10,7 +11,7 @@ router.get("/", (req, res) => {
   res.send("hello");
 });
 
-const { HOME, EMAIL, REPO } = CONSTANTS.ENDPOINT;
+const { HOME, EMAIL, REPO, GITHUB_USER } = CONSTANTS.ENDPOINT;
 
 // API home
 router.get(HOME, ctrlHome.getHome);
@@ -20,5 +21,8 @@ router.post(EMAIL, ctrlEmail.sendEmail);
 
 // Repos
 router.get(REPO, ctrlRepo.getRepos);
+
+// Github User
+router.get(GITHUB_USER, ctrlUser.getUser);
 
 module.exports = router;
