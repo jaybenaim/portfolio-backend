@@ -12807,3 +12807,4 @@ const repos = [
     default_branch: "master",
   },
 ];
+module.exports = repos;
