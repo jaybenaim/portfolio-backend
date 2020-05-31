@@ -11,5 +11,12 @@ const getRepos = (req, res) => {
 
   return res.status(200).send(next20Repos);
 };
-
-module.exports = { getRepos };
+const filterRepos = (req, res) => {
+  let currentRepos = repos[0];
+  let { filter } = req.query;
+  let results = currentRepos.filter((repo) =>
+    repo.name.toLowerCase().includes(filter.toLowerCase())
+  );
+  res.status(200).send(results);
+};
+module.exports = { getRepos, filterRepos };
