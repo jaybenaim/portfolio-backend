@@ -17,7 +17,6 @@ const getLanguages = (req, res) => {
 
   fetchLanguages(repoName)
     .then((response) => {
-      console.log(response.data);
       res.status(200).send(response.data);
     })
     .catch((err) => res.status(500).send(err));
@@ -70,7 +69,10 @@ const filterRepos = (req, res) => {
       let name = repo.name.toLowerCase();
 
       return (
-        name.includes("bit") || name.includes("wdi") || name.includes("day")
+        name.includes("bit") ||
+        name.includes("wdi") ||
+        name.includes("day") ||
+        name.includes("rein")
       );
     });
     res.status(200).send(repos);

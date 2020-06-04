@@ -6,7 +6,7 @@ const userInfo = {
   repos_url: "https://api.github.com/users/jaybenaim/repos",
   name: "Jacob Benaim",
   email: "benaimjacob@gmail.com",
-  public_repos: 189,
+  public_repos: 190,
   created_at: "2019-04-19T14:17:45Z",
   updated_at: "2020-05-25T19:41:32Z",
 };
