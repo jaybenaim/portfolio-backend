@@ -78,15 +78,18 @@ const filterRepos = (req, res) => {
     let repos = currentRepos.filter((repo) => {
       let name = repo.name.toLowerCase();
       let language = repo.language ? repo.language.toLowerCase() : "unknown";
-      let languages = repo.languages_url && getLanguages(repo.languages_url);
-      console.log(languages);
+
       return (
         name.includes("angular") ||
         name.includes("tour") ||
         language.includes("typescript")
       );
     });
-    res.status(200).send(repos);
+    if (repos.length >= 1) {
+      res.status(200).send(repos);
+    } else {
+      res.status(500).send(err);
+    }
   } else {
     let repos = currentRepos.filter((repo) => {
       let name = repo.name.toLowerCase();
