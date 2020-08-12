@@ -47,60 +47,72 @@ const getRepos = (req, res) => {
 const filterRepos = (req, res) => {
   let currentRepos = repos();
   let { filter } = req.query;
+  switch (filter) {
+    case "favourites":
+      currentRepos = currentRepos.filter((repo) => repo.favourite);
+      res.status(200).send(currentRepos);
+      break;
+    case "deployed":
+      currentRepos = currentRepos.filter((repo) => {
+        let name = repo.name.toLowerCase();
+        let deployed = repo.has_pages;
+        return deployed
+          ? deployed
+          : name.includes("cookies") ||
+              name.includes("highly") ||
+              name.includes("estate") ||
+              name.includes("job") ||
+              name.includes("dev") ||
+              name.includes("html5");
+      });
+      res.status(200).send(currentRepos);
+      break;
+    case "wdi":
+      currentRepos = currentRepos.filter((repo) => {
+        let name = repo.name.toLowerCase();
 
-  if (filter === "favourites") {
-    let repos = currentRepos.filter((repo) => {
-      let name = repo.name.toLowerCase();
+        return (
+          name.includes("bit") ||
+          name.includes("wdi") ||
+          name.includes("day") ||
+          name.includes("rein")
+        );
+      });
+      res.status(200).send(currentRepos);
+      break;
+    case "angular":
+      currentRepos = currentRepos.filter((repo) => {
+        let name = repo.name.toLowerCase();
+        let language = repo.language ? repo.language.toLowerCase() : "unknown";
 
-      return (
-        name.includes("dolce") ||
-        name.includes("isell") ||
-        name.includes("estate") ||
-        name.includes("job") ||
-        name.includes("dev") ||
-        name === "card_games" ||
-        name.includes("shop_it_django") ||
-        name.includes("html5")
+        return (
+          name.includes("angular") ||
+          name.includes("tour") ||
+          language.includes("typescript")
+        );
+      });
+      res.status(200).send(currentRepos);
+      break;
+    case "games":
+      currentRepos = currentRepos.filter((repo) => {
+        let name = repo.name.toLowerCase();
+
+        return name.includes("html5game") || name.includes("game");
+      });
+      res.status(200).send(currentRepos);
+      break;
+
+    default:
+      let defaultRepos = currentRepos.filter(
+        ({ name, language = "unknown" }) => {
+          let filter = filter.toLowerCase();
+          language = repo.language.toLowerCase();
+          filter = filter.toLowerCase();
+
+          return name.includes(filter) || language.includes(filter);
+        }
       );
-    });
-    res.status(200).send(repos);
-  } else if (filter === "wdi") {
-    let repos = currentRepos.filter((repo) => {
-      let name = repo.name.toLowerCase();
-
-      return (
-        name.includes("bit") ||
-        name.includes("wdi") ||
-        name.includes("day") ||
-        name.includes("rein")
-      );
-    });
-    res.status(200).send(repos);
-  } else if (filter === "angular") {
-    let repos = currentRepos.filter((repo) => {
-      let name = repo.name.toLowerCase();
-      let language = repo.language ? repo.language.toLowerCase() : "unknown";
-
-      return (
-        name.includes("angular") ||
-        name.includes("tour") ||
-        language.includes("typescript")
-      );
-    });
-    if (repos.length >= 1) {
-      res.status(200).send(repos);
-    } else {
-      res.status(500).send(err);
-    }
-  } else {
-    let repos = currentRepos.filter((repo) => {
-      let name = repo.name.toLowerCase();
-      let language = repo.language ? repo.language.toLowerCase() : "unknown";
-      filter = filter.toLowerCase();
-
-      return name.includes(filter) || language.includes(filter);
-    });
-    res.status(200).send(repos);
+      res.status(200).send(defaultRepos);
   }
 };
 module.exports = { getRepos, filterRepos, getLanguages };
