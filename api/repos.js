@@ -1,101 +1,5 @@
 const repos = [
   {
-    id: 204736492,
-    node_id: "MDEwOlJlcG9zaXRvcnkyMDQ3MzY0OTI=",
-    name: "37-wdi-testing",
-    full_name: "jaybenaim/37-wdi-testing",
-    private: false,
-
-    html_url: "https://github.com/jaybenaim/37-wdi-testing",
-    description: null,
-    fork: false,
-    url: "https://api.github.com/repos/jaybenaim/37-wdi-testing",
-    forks_url: "https://api.github.com/repos/jaybenaim/37-wdi-testing/forks",
-    keys_url:
-      "https://api.github.com/repos/jaybenaim/37-wdi-testing/keys{/key_id}",
-    collaborators_url:
-      "https://api.github.com/repos/jaybenaim/37-wdi-testing/collaborators{/collaborator}",
-    teams_url: "https://api.github.com/repos/jaybenaim/37-wdi-testing/teams",
-    hooks_url: "https://api.github.com/repos/jaybenaim/37-wdi-testing/hooks",
-    issue_events_url:
-      "https://api.github.com/repos/jaybenaim/37-wdi-testing/issues/events{/number}",
-    events_url: "https://api.github.com/repos/jaybenaim/37-wdi-testing/events",
-    assignees_url:
-      "https://api.github.com/repos/jaybenaim/37-wdi-testing/assignees{/user}",
-    branches_url:
-      "https://api.github.com/repos/jaybenaim/37-wdi-testing/branches{/branch}",
-    tags_url: "https://api.github.com/repos/jaybenaim/37-wdi-testing/tags",
-    blobs_url:
-      "https://api.github.com/repos/jaybenaim/37-wdi-testing/git/blobs{/sha}",
-    git_tags_url:
-      "https://api.github.com/repos/jaybenaim/37-wdi-testing/git/tags{/sha}",
-
-    trees_url:
-      "https://api.github.com/repos/jaybenaim/37-wdi-testing/git/trees{/sha}",
-    statuses_url:
-      "https://api.github.com/repos/jaybenaim/37-wdi-testing/statuses/{sha}",
-    languages_url:
-      "https://api.github.com/repos/jaybenaim/37-wdi-testing/languages",
-    stargazers_url:
-      "https://api.github.com/repos/jaybenaim/37-wdi-testing/stargazers",
-    contributors_url:
-      "https://api.github.com/repos/jaybenaim/37-wdi-testing/contributors",
-    subscribers_url:
-      "https://api.github.com/repos/jaybenaim/37-wdi-testing/subscribers",
-    subscription_url:
-      "https://api.github.com/repos/jaybenaim/37-wdi-testing/subscription",
-    commits_url:
-      "https://api.github.com/repos/jaybenaim/37-wdi-testing/commits{/sha}",
-    git_commits_url:
-      "https://api.github.com/repos/jaybenaim/37-wdi-testing/git/commits{/sha}",
-    comments_url:
-      "https://api.github.com/repos/jaybenaim/37-wdi-testing/comments{/number}",
-    issue_comment_url:
-      "https://api.github.com/repos/jaybenaim/37-wdi-testing/issues/comments{/number}",
-    contents_url:
-      "https://api.github.com/repos/jaybenaim/37-wdi-testing/contents/{+path}",
-    compare_url:
-      "https://api.github.com/repos/jaybenaim/37-wdi-testing/compare/{base}...{head}",
-    merges_url: "https://api.github.com/repos/jaybenaim/37-wdi-testing/merges",
-    archive_url:
-      "https://api.github.com/repos/jaybenaim/37-wdi-testing/{archive_format}{/ref}",
-    downloads_url:
-      "https://api.github.com/repos/jaybenaim/37-wdi-testing/downloads",
-    issues_url:
-      "https://api.github.com/repos/jaybenaim/37-wdi-testing/issues{/number}",
-    pulls_url:
-      "https://api.github.com/repos/jaybenaim/37-wdi-testing/pulls{/number}",
-    milestones_url:
-      "https://api.github.com/repos/jaybenaim/37-wdi-testing/milestones{/number}",
-    notifications_url:
-      "https://api.github.com/repos/jaybenaim/37-wdi-testing/notifications{?since,all,participating}",
-    labels_url:
-      "https://api.github.com/repos/jaybenaim/37-wdi-testing/labels{/name}",
-    releases_url:
-      "https://api.github.com/repos/jaybenaim/37-wdi-testing/releases{/id}",
-    deployments_url:
-      "https://api.github.com/repos/jaybenaim/37-wdi-testing/deployments",
-    created_at: "2019-08-27T15:45:22Z",
-    updated_at: "2019-08-27T15:45:29Z",
-    pushed_at: "2019-08-27T15:45:27Z",
-    git_url: "git://github.com/jaybenaim/37-wdi-testing.git",
-    ssh_url: "git@github.com:jaybenaim/37-wdi-testing.git",
-    clone_url: "https://github.com/jaybenaim/37-wdi-testing.git",
-    svn_url: "https://github.com/jaybenaim/37-wdi-testing",
-    homepage: "",
-    size: 6,
-
-    language: "JavaScript",
-
-    has_pages: false,
-
-    license: null,
-    forks: 0,
-    open_issues: 0,
-    watchers: 0,
-    default_branch: "master",
-  },
-  {
     id: 263416498,
     node_id: "MDEwOlJlcG9zaXRvcnkyNjM0MTY0OTg=",
     name: "angular2-authentication-firebase",
@@ -104,7 +8,7 @@ const repos = [
 
     html_url: "https://github.com/jaybenaim/angular2-authentication-firebase",
     description:
-      "Implementing authentication in Angular using Firebase - Google, Twitter, Facebook and Normal Signup/sign in.",
+      "Implementing authentication in Angular using Firebase - Google, Twitter, Facebook and Normal Signup/sign in",
     fork: true,
     url:
       "https://api.github.com/repos/jaybenaim/angular2-authentication-firebase",
@@ -189,209 +93,15 @@ const repos = [
     svn_url: "https://github.com/jaybenaim/angular2-authentication-firebase",
     homepage: "https://angular-auth-firebase.firebaseapp.com/",
     size: 28,
-
     language: "Typescript",
-
     has_pages: false,
-
     license: null,
     forks: 0,
     open_issues: 0,
     watchers: 0,
     default_branch: "master",
   },
-  {
-    id: 259759680,
-    node_id: "MDEwOlJlcG9zaXRvcnkyNTk3NTk2ODA=",
-    name: "AngularAuth",
-    full_name: "jaybenaim/AngularAuth",
-    private: false,
 
-    html_url: "https://github.com/jaybenaim/AngularAuth",
-    description: null,
-    fork: false,
-    url: "https://api.github.com/repos/jaybenaim/AngularAuth",
-    forks_url: "https://api.github.com/repos/jaybenaim/AngularAuth/forks",
-    keys_url:
-      "https://api.github.com/repos/jaybenaim/AngularAuth/keys{/key_id}",
-    collaborators_url:
-      "https://api.github.com/repos/jaybenaim/AngularAuth/collaborators{/collaborator}",
-    teams_url: "https://api.github.com/repos/jaybenaim/AngularAuth/teams",
-    hooks_url: "https://api.github.com/repos/jaybenaim/AngularAuth/hooks",
-    issue_events_url:
-      "https://api.github.com/repos/jaybenaim/AngularAuth/issues/events{/number}",
-    events_url: "https://api.github.com/repos/jaybenaim/AngularAuth/events",
-    assignees_url:
-      "https://api.github.com/repos/jaybenaim/AngularAuth/assignees{/user}",
-    branches_url:
-      "https://api.github.com/repos/jaybenaim/AngularAuth/branches{/branch}",
-    tags_url: "https://api.github.com/repos/jaybenaim/AngularAuth/tags",
-    blobs_url:
-      "https://api.github.com/repos/jaybenaim/AngularAuth/git/blobs{/sha}",
-    git_tags_url:
-      "https://api.github.com/repos/jaybenaim/AngularAuth/git/tags{/sha}",
-
-    trees_url:
-      "https://api.github.com/repos/jaybenaim/AngularAuth/git/trees{/sha}",
-    statuses_url:
-      "https://api.github.com/repos/jaybenaim/AngularAuth/statuses/{sha}",
-    languages_url:
-      "https://api.github.com/repos/jaybenaim/AngularAuth/languages",
-    stargazers_url:
-      "https://api.github.com/repos/jaybenaim/AngularAuth/stargazers",
-    contributors_url:
-      "https://api.github.com/repos/jaybenaim/AngularAuth/contributors",
-    subscribers_url:
-      "https://api.github.com/repos/jaybenaim/AngularAuth/subscribers",
-    subscription_url:
-      "https://api.github.com/repos/jaybenaim/AngularAuth/subscription",
-    commits_url:
-      "https://api.github.com/repos/jaybenaim/AngularAuth/commits{/sha}",
-    git_commits_url:
-      "https://api.github.com/repos/jaybenaim/AngularAuth/git/commits{/sha}",
-    comments_url:
-      "https://api.github.com/repos/jaybenaim/AngularAuth/comments{/number}",
-    issue_comment_url:
-      "https://api.github.com/repos/jaybenaim/AngularAuth/issues/comments{/number}",
-    contents_url:
-      "https://api.github.com/repos/jaybenaim/AngularAuth/contents/{+path}",
-    compare_url:
-      "https://api.github.com/repos/jaybenaim/AngularAuth/compare/{base}...{head}",
-    merges_url: "https://api.github.com/repos/jaybenaim/AngularAuth/merges",
-    archive_url:
-      "https://api.github.com/repos/jaybenaim/AngularAuth/{archive_format}{/ref}",
-    downloads_url:
-      "https://api.github.com/repos/jaybenaim/AngularAuth/downloads",
-    issues_url:
-      "https://api.github.com/repos/jaybenaim/AngularAuth/issues{/number}",
-    pulls_url:
-      "https://api.github.com/repos/jaybenaim/AngularAuth/pulls{/number}",
-    milestones_url:
-      "https://api.github.com/repos/jaybenaim/AngularAuth/milestones{/number}",
-    notifications_url:
-      "https://api.github.com/repos/jaybenaim/AngularAuth/notifications{?since,all,participating}",
-    labels_url:
-      "https://api.github.com/repos/jaybenaim/AngularAuth/labels{/name}",
-    releases_url:
-      "https://api.github.com/repos/jaybenaim/AngularAuth/releases{/id}",
-    deployments_url:
-      "https://api.github.com/repos/jaybenaim/AngularAuth/deployments",
-    created_at: "2020-04-28T21:51:41Z",
-    updated_at: "2020-04-28T22:25:26Z",
-    pushed_at: "2020-04-28T22:45:50Z",
-    git_url: "git://github.com/jaybenaim/AngularAuth.git",
-    ssh_url: "git@github.com:jaybenaim/AngularAuth.git",
-    clone_url: "https://github.com/jaybenaim/AngularAuth.git",
-    svn_url: "https://github.com/jaybenaim/AngularAuth",
-    homepage: "",
-    size: 1639,
-
-    language: "TypeScript",
-
-    has_pages: false,
-
-    license: null,
-    forks: 0,
-    open_issues: 0,
-    watchers: 0,
-    default_branch: "master",
-  },
-  {
-    id: 202199961,
-    node_id: "MDEwOlJlcG9zaXRvcnkyMDIxOTk5NjE=",
-    name: "Api-day27-wdi",
-    full_name: "jaybenaim/Api-day27-wdi",
-    private: false,
-
-    html_url: "https://github.com/jaybenaim/Api-day27-wdi",
-    description: null,
-    fork: false,
-    url: "https://api.github.com/repos/jaybenaim/Api-day27-wdi",
-    forks_url: "https://api.github.com/repos/jaybenaim/Api-day27-wdi/forks",
-    keys_url:
-      "https://api.github.com/repos/jaybenaim/Api-day27-wdi/keys{/key_id}",
-    collaborators_url:
-      "https://api.github.com/repos/jaybenaim/Api-day27-wdi/collaborators{/collaborator}",
-    teams_url: "https://api.github.com/repos/jaybenaim/Api-day27-wdi/teams",
-    hooks_url: "https://api.github.com/repos/jaybenaim/Api-day27-wdi/hooks",
-    issue_events_url:
-      "https://api.github.com/repos/jaybenaim/Api-day27-wdi/issues/events{/number}",
-    events_url: "https://api.github.com/repos/jaybenaim/Api-day27-wdi/events",
-    assignees_url:
-      "https://api.github.com/repos/jaybenaim/Api-day27-wdi/assignees{/user}",
-    branches_url:
-      "https://api.github.com/repos/jaybenaim/Api-day27-wdi/branches{/branch}",
-    tags_url: "https://api.github.com/repos/jaybenaim/Api-day27-wdi/tags",
-    blobs_url:
-      "https://api.github.com/repos/jaybenaim/Api-day27-wdi/git/blobs{/sha}",
-    git_tags_url:
-      "https://api.github.com/repos/jaybenaim/Api-day27-wdi/git/tags{/sha}",
-
-    trees_url:
-      "https://api.github.com/repos/jaybenaim/Api-day27-wdi/git/trees{/sha}",
-    statuses_url:
-      "https://api.github.com/repos/jaybenaim/Api-day27-wdi/statuses/{sha}",
-    languages_url:
-      "https://api.github.com/repos/jaybenaim/Api-day27-wdi/languages",
-    stargazers_url:
-      "https://api.github.com/repos/jaybenaim/Api-day27-wdi/stargazers",
-    contributors_url:
-      "https://api.github.com/repos/jaybenaim/Api-day27-wdi/contributors",
-    subscribers_url:
-      "https://api.github.com/repos/jaybenaim/Api-day27-wdi/subscribers",
-    subscription_url:
-      "https://api.github.com/repos/jaybenaim/Api-day27-wdi/subscription",
-    commits_url:
-      "https://api.github.com/repos/jaybenaim/Api-day27-wdi/commits{/sha}",
-    git_commits_url:
-      "https://api.github.com/repos/jaybenaim/Api-day27-wdi/git/commits{/sha}",
-    comments_url:
-      "https://api.github.com/repos/jaybenaim/Api-day27-wdi/comments{/number}",
-    issue_comment_url:
-      "https://api.github.com/repos/jaybenaim/Api-day27-wdi/issues/comments{/number}",
-    contents_url:
-      "https://api.github.com/repos/jaybenaim/Api-day27-wdi/contents/{+path}",
-    compare_url:
-      "https://api.github.com/repos/jaybenaim/Api-day27-wdi/compare/{base}...{head}",
-    merges_url: "https://api.github.com/repos/jaybenaim/Api-day27-wdi/merges",
-    archive_url:
-      "https://api.github.com/repos/jaybenaim/Api-day27-wdi/{archive_format}{/ref}",
-    downloads_url:
-      "https://api.github.com/repos/jaybenaim/Api-day27-wdi/downloads",
-    issues_url:
-      "https://api.github.com/repos/jaybenaim/Api-day27-wdi/issues{/number}",
-    pulls_url:
-      "https://api.github.com/repos/jaybenaim/Api-day27-wdi/pulls{/number}",
-    milestones_url:
-      "https://api.github.com/repos/jaybenaim/Api-day27-wdi/milestones{/number}",
-    notifications_url:
-      "https://api.github.com/repos/jaybenaim/Api-day27-wdi/notifications{?since,all,participating}",
-    labels_url:
-      "https://api.github.com/repos/jaybenaim/Api-day27-wdi/labels{/name}",
-    releases_url:
-      "https://api.github.com/repos/jaybenaim/Api-day27-wdi/releases{/id}",
-    deployments_url:
-      "https://api.github.com/repos/jaybenaim/Api-day27-wdi/deployments",
-    created_at: "2019-08-13T18:13:07Z",
-    updated_at: "2020-05-31T05:19:24Z",
-    pushed_at: "2019-08-13T18:13:31Z",
-    git_url: "git://github.com/jaybenaim/Api-day27-wdi.git",
-    ssh_url: "git@github.com:jaybenaim/Api-day27-wdi.git",
-    clone_url: "https://github.com/jaybenaim/Api-day27-wdi.git",
-    svn_url: "https://github.com/jaybenaim/Api-day27-wdi",
-    homepage: "",
-    size: 0,
-
-    language: "Python",
-
-    has_pages: false,
-
-    license: null,
-    forks: 0,
-    open_issues: 0,
-    watchers: 0,
-    default_branch: "master",
-  },
   {
     id: 203044324,
     node_id: "MDEwOlJlcG9zaXRvcnkyMDMwNDQzMjQ=",
@@ -400,7 +110,7 @@ const repos = [
     private: false,
 
     html_url: "https://github.com/jaybenaim/apis",
-    description: null,
+    description: "Api fetch using Python requests library",
     fork: false,
     url: "https://api.github.com/repos/jaybenaim/apis",
     forks_url: "https://api.github.com/repos/jaybenaim/apis/forks",
@@ -480,7 +190,7 @@ const repos = [
     private: false,
 
     html_url: "https://github.com/jaybenaim/bb_election_starter_code",
-    description: null,
+    description: "Api requests using Python & Django",
     fork: true,
     url: "https://api.github.com/repos/jaybenaim/bb_election_starter_code",
     forks_url:
@@ -576,108 +286,6 @@ const repos = [
   },
 
   {
-    id: 246223515,
-    node_id: "MDEwOlJlcG9zaXRvcnkyNDYyMjM1MTU=",
-    name: "birthdayplannerBackend",
-    full_name: "jaybenaim/birthdayplannerBackend",
-    private: false,
-
-    html_url: "https://github.com/jaybenaim/birthdayplannerBackend",
-    description: null,
-    fork: false,
-    url: "https://api.github.com/repos/jaybenaim/birthdayplannerBackend",
-    forks_url:
-      "https://api.github.com/repos/jaybenaim/birthdayplannerBackend/forks",
-    keys_url:
-      "https://api.github.com/repos/jaybenaim/birthdayplannerBackend/keys{/key_id}",
-    collaborators_url:
-      "https://api.github.com/repos/jaybenaim/birthdayplannerBackend/collaborators{/collaborator}",
-    teams_url:
-      "https://api.github.com/repos/jaybenaim/birthdayplannerBackend/teams",
-    hooks_url:
-      "https://api.github.com/repos/jaybenaim/birthdayplannerBackend/hooks",
-    issue_events_url:
-      "https://api.github.com/repos/jaybenaim/birthdayplannerBackend/issues/events{/number}",
-    events_url:
-      "https://api.github.com/repos/jaybenaim/birthdayplannerBackend/events",
-    assignees_url:
-      "https://api.github.com/repos/jaybenaim/birthdayplannerBackend/assignees{/user}",
-    branches_url:
-      "https://api.github.com/repos/jaybenaim/birthdayplannerBackend/branches{/branch}",
-    tags_url:
-      "https://api.github.com/repos/jaybenaim/birthdayplannerBackend/tags",
-    blobs_url:
-      "https://api.github.com/repos/jaybenaim/birthdayplannerBackend/git/blobs{/sha}",
-    git_tags_url:
-      "https://api.github.com/repos/jaybenaim/birthdayplannerBackend/git/tags{/sha}",
-
-    trees_url:
-      "https://api.github.com/repos/jaybenaim/birthdayplannerBackend/git/trees{/sha}",
-    statuses_url:
-      "https://api.github.com/repos/jaybenaim/birthdayplannerBackend/statuses/{sha}",
-    languages_url:
-      "https://api.github.com/repos/jaybenaim/birthdayplannerBackend/languages",
-    stargazers_url:
-      "https://api.github.com/repos/jaybenaim/birthdayplannerBackend/stargazers",
-    contributors_url:
-      "https://api.github.com/repos/jaybenaim/birthdayplannerBackend/contributors",
-    subscribers_url:
-      "https://api.github.com/repos/jaybenaim/birthdayplannerBackend/subscribers",
-    subscription_url:
-      "https://api.github.com/repos/jaybenaim/birthdayplannerBackend/subscription",
-    commits_url:
-      "https://api.github.com/repos/jaybenaim/birthdayplannerBackend/commits{/sha}",
-    git_commits_url:
-      "https://api.github.com/repos/jaybenaim/birthdayplannerBackend/git/commits{/sha}",
-    comments_url:
-      "https://api.github.com/repos/jaybenaim/birthdayplannerBackend/comments{/number}",
-    issue_comment_url:
-      "https://api.github.com/repos/jaybenaim/birthdayplannerBackend/issues/comments{/number}",
-    contents_url:
-      "https://api.github.com/repos/jaybenaim/birthdayplannerBackend/contents/{+path}",
-    compare_url:
-      "https://api.github.com/repos/jaybenaim/birthdayplannerBackend/compare/{base}...{head}",
-    merges_url:
-      "https://api.github.com/repos/jaybenaim/birthdayplannerBackend/merges",
-    archive_url:
-      "https://api.github.com/repos/jaybenaim/birthdayplannerBackend/{archive_format}{/ref}",
-    downloads_url:
-      "https://api.github.com/repos/jaybenaim/birthdayplannerBackend/downloads",
-    issues_url:
-      "https://api.github.com/repos/jaybenaim/birthdayplannerBackend/issues{/number}",
-    pulls_url:
-      "https://api.github.com/repos/jaybenaim/birthdayplannerBackend/pulls{/number}",
-    milestones_url:
-      "https://api.github.com/repos/jaybenaim/birthdayplannerBackend/milestones{/number}",
-    notifications_url:
-      "https://api.github.com/repos/jaybenaim/birthdayplannerBackend/notifications{?since,all,participating}",
-    labels_url:
-      "https://api.github.com/repos/jaybenaim/birthdayplannerBackend/labels{/name}",
-    releases_url:
-      "https://api.github.com/repos/jaybenaim/birthdayplannerBackend/releases{/id}",
-    deployments_url:
-      "https://api.github.com/repos/jaybenaim/birthdayplannerBackend/deployments",
-    created_at: "2020-03-10T06:20:55Z",
-    updated_at: "2020-03-11T07:22:18Z",
-    pushed_at: "2020-03-11T07:22:16Z",
-    git_url: "git://github.com/jaybenaim/birthdayplannerBackend.git",
-    ssh_url: "git@github.com:jaybenaim/birthdayplannerBackend.git",
-    clone_url: "https://github.com/jaybenaim/birthdayplannerBackend.git",
-    svn_url: "https://github.com/jaybenaim/birthdayplannerBackend",
-    homepage: "",
-    size: 799,
-
-    language: "JavaScript",
-
-    has_pages: false,
-
-    license: null,
-    forks: 0,
-    open_issues: 0,
-    watchers: 0,
-    default_branch: "master",
-  },
-  {
     id: 203698816,
     node_id: "MDEwOlJlcG9zaXRvcnkyMDM2OTg4MTY=",
     name: "bitkittens_starter_code",
@@ -685,7 +293,7 @@ const repos = [
     private: false,
 
     html_url: "https://github.com/jaybenaim/bitkittens_starter_code",
-    description: null,
+    description: "Django project",
     fork: true,
     url: "https://api.github.com/repos/jaybenaim/bitkittens_starter_code",
     forks_url:
@@ -779,95 +387,15 @@ const repos = [
     watchers: 0,
     default_branch: "master",
   },
-  {
-    id: 198918892,
-    node_id: "MDEwOlJlcG9zaXRvcnkxOTg5MTg4OTI=",
-    name: "blog",
-    full_name: "jaybenaim/blog",
-    private: false,
 
-    html_url: "https://github.com/jaybenaim/blog",
-    description: "NEW_REPO",
-    fork: false,
-    url: "https://api.github.com/repos/jaybenaim/blog",
-    forks_url: "https://api.github.com/repos/jaybenaim/blog/forks",
-    keys_url: "https://api.github.com/repos/jaybenaim/blog/keys{/key_id}",
-    collaborators_url:
-      "https://api.github.com/repos/jaybenaim/blog/collaborators{/collaborator}",
-    teams_url: "https://api.github.com/repos/jaybenaim/blog/teams",
-    hooks_url: "https://api.github.com/repos/jaybenaim/blog/hooks",
-    issue_events_url:
-      "https://api.github.com/repos/jaybenaim/blog/issues/events{/number}",
-    events_url: "https://api.github.com/repos/jaybenaim/blog/events",
-    assignees_url:
-      "https://api.github.com/repos/jaybenaim/blog/assignees{/user}",
-    branches_url:
-      "https://api.github.com/repos/jaybenaim/blog/branches{/branch}",
-    tags_url: "https://api.github.com/repos/jaybenaim/blog/tags",
-    blobs_url: "https://api.github.com/repos/jaybenaim/blog/git/blobs{/sha}",
-    git_tags_url: "https://api.github.com/repos/jaybenaim/blog/git/tags{/sha}",
-
-    statuses_url: "https://api.github.com/repos/jaybenaim/blog/statuses/{sha}",
-    languages_url: "https://api.github.com/repos/jaybenaim/blog/languages",
-    stargazers_url: "https://api.github.com/repos/jaybenaim/blog/stargazers",
-    contributors_url:
-      "https://api.github.com/repos/jaybenaim/blog/contributors",
-    subscribers_url: "https://api.github.com/repos/jaybenaim/blog/subscribers",
-    subscription_url:
-      "https://api.github.com/repos/jaybenaim/blog/subscription",
-    commits_url: "https://api.github.com/repos/jaybenaim/blog/commits{/sha}",
-    git_commits_url:
-      "https://api.github.com/repos/jaybenaim/blog/git/commits{/sha}",
-    comments_url:
-      "https://api.github.com/repos/jaybenaim/blog/comments{/number}",
-    issue_comment_url:
-      "https://api.github.com/repos/jaybenaim/blog/issues/comments{/number}",
-    contents_url:
-      "https://api.github.com/repos/jaybenaim/blog/contents/{+path}",
-    compare_url:
-      "https://api.github.com/repos/jaybenaim/blog/compare/{base}...{head}",
-    merges_url: "https://api.github.com/repos/jaybenaim/blog/merges",
-    archive_url:
-      "https://api.github.com/repos/jaybenaim/blog/{archive_format}{/ref}",
-    downloads_url: "https://api.github.com/repos/jaybenaim/blog/downloads",
-    issues_url: "https://api.github.com/repos/jaybenaim/blog/issues{/number}",
-    pulls_url: "https://api.github.com/repos/jaybenaim/blog/pulls{/number}",
-    milestones_url:
-      "https://api.github.com/repos/jaybenaim/blog/milestones{/number}",
-    notifications_url:
-      "https://api.github.com/repos/jaybenaim/blog/notifications{?since,all,participating}",
-    labels_url: "https://api.github.com/repos/jaybenaim/blog/labels{/name}",
-    releases_url: "https://api.github.com/repos/jaybenaim/blog/releases{/id}",
-    deployments_url: "https://api.github.com/repos/jaybenaim/blog/deployments",
-    created_at: "2019-07-26T00:31:08Z",
-    updated_at: "2019-07-26T00:31:08Z",
-    pushed_at: "2019-07-26T00:31:08Z",
-    git_url: "git://github.com/jaybenaim/blog.git",
-    ssh_url: "git@github.com:jaybenaim/blog.git",
-    clone_url: "https://github.com/jaybenaim/blog.git",
-    svn_url: "https://github.com/jaybenaim/blog",
-    homepage: "",
-    size: 0,
-
-    language: null,
-
-    has_pages: false,
-
-    license: null,
-    forks: 0,
-    open_issues: 0,
-    watchers: 0,
-    default_branch: "master",
-  },
   {
     id: 192431428,
     node_id: "MDEwOlJlcG9zaXRvcnkxOTI0MzE0Mjg=",
-    name: "blog_app",
+    name: "RESTful blog_app",
     full_name: "jaybenaim/blog_app",
     private: false,
-
     html_url: "https://github.com/jaybenaim/blog_app",
-    description: null,
+    description: "RESTful API for a blog app with Mongo, Express and EJS",
     fork: false,
     url: "https://api.github.com/repos/jaybenaim/blog_app",
     forks_url: "https://api.github.com/repos/jaybenaim/blog_app/forks",
@@ -940,7 +468,7 @@ const repos = [
     homepage: null,
     size: 2468,
 
-    language: "HTML",
+    language: "JavaScript",
 
     has_pages: false,
 
@@ -958,7 +486,7 @@ const repos = [
     private: false,
 
     html_url: "https://github.com/jaybenaim/book-lender",
-    description: null,
+    description: "Python book-lending program with borrowing functions",
     fork: false,
     url: "https://api.github.com/repos/jaybenaim/book-lender",
     forks_url: "https://api.github.com/repos/jaybenaim/book-lender/forks",
@@ -1047,107 +575,13 @@ const repos = [
     default_branch: "master",
   },
   {
-    id: 195897615,
-    node_id: "MDEwOlJlcG9zaXRvcnkxOTU4OTc2MTU=",
-    name: "bootstrap",
-    full_name: "jaybenaim/bootstrap",
-    private: false,
-
-    html_url: "https://github.com/jaybenaim/bootstrap",
-    description: null,
-    fork: false,
-    url: "https://api.github.com/repos/jaybenaim/bootstrap",
-    forks_url: "https://api.github.com/repos/jaybenaim/bootstrap/forks",
-    keys_url: "https://api.github.com/repos/jaybenaim/bootstrap/keys{/key_id}",
-    collaborators_url:
-      "https://api.github.com/repos/jaybenaim/bootstrap/collaborators{/collaborator}",
-    teams_url: "https://api.github.com/repos/jaybenaim/bootstrap/teams",
-    hooks_url: "https://api.github.com/repos/jaybenaim/bootstrap/hooks",
-    issue_events_url:
-      "https://api.github.com/repos/jaybenaim/bootstrap/issues/events{/number}",
-    events_url: "https://api.github.com/repos/jaybenaim/bootstrap/events",
-    assignees_url:
-      "https://api.github.com/repos/jaybenaim/bootstrap/assignees{/user}",
-    branches_url:
-      "https://api.github.com/repos/jaybenaim/bootstrap/branches{/branch}",
-    tags_url: "https://api.github.com/repos/jaybenaim/bootstrap/tags",
-    blobs_url:
-      "https://api.github.com/repos/jaybenaim/bootstrap/git/blobs{/sha}",
-    git_tags_url:
-      "https://api.github.com/repos/jaybenaim/bootstrap/git/tags{/sha}",
-
-    trees_url:
-      "https://api.github.com/repos/jaybenaim/bootstrap/git/trees{/sha}",
-    statuses_url:
-      "https://api.github.com/repos/jaybenaim/bootstrap/statuses/{sha}",
-    languages_url: "https://api.github.com/repos/jaybenaim/bootstrap/languages",
-    stargazers_url:
-      "https://api.github.com/repos/jaybenaim/bootstrap/stargazers",
-    contributors_url:
-      "https://api.github.com/repos/jaybenaim/bootstrap/contributors",
-    subscribers_url:
-      "https://api.github.com/repos/jaybenaim/bootstrap/subscribers",
-    subscription_url:
-      "https://api.github.com/repos/jaybenaim/bootstrap/subscription",
-    commits_url:
-      "https://api.github.com/repos/jaybenaim/bootstrap/commits{/sha}",
-    git_commits_url:
-      "https://api.github.com/repos/jaybenaim/bootstrap/git/commits{/sha}",
-    comments_url:
-      "https://api.github.com/repos/jaybenaim/bootstrap/comments{/number}",
-    issue_comment_url:
-      "https://api.github.com/repos/jaybenaim/bootstrap/issues/comments{/number}",
-    contents_url:
-      "https://api.github.com/repos/jaybenaim/bootstrap/contents/{+path}",
-    compare_url:
-      "https://api.github.com/repos/jaybenaim/bootstrap/compare/{base}...{head}",
-    merges_url: "https://api.github.com/repos/jaybenaim/bootstrap/merges",
-    archive_url:
-      "https://api.github.com/repos/jaybenaim/bootstrap/{archive_format}{/ref}",
-    downloads_url: "https://api.github.com/repos/jaybenaim/bootstrap/downloads",
-    issues_url:
-      "https://api.github.com/repos/jaybenaim/bootstrap/issues{/number}",
-    pulls_url:
-      "https://api.github.com/repos/jaybenaim/bootstrap/pulls{/number}",
-    milestones_url:
-      "https://api.github.com/repos/jaybenaim/bootstrap/milestones{/number}",
-    notifications_url:
-      "https://api.github.com/repos/jaybenaim/bootstrap/notifications{?since,all,participating}",
-    labels_url:
-      "https://api.github.com/repos/jaybenaim/bootstrap/labels{/name}",
-    releases_url:
-      "https://api.github.com/repos/jaybenaim/bootstrap/releases{/id}",
-    deployments_url:
-      "https://api.github.com/repos/jaybenaim/bootstrap/deployments",
-    created_at: "2019-07-08T23:09:29Z",
-    updated_at: "2019-07-08T23:16:10Z",
-    pushed_at: "2019-07-08T23:16:08Z",
-    git_url: "git://github.com/jaybenaim/bootstrap.git",
-    ssh_url: "git@github.com:jaybenaim/bootstrap.git",
-    clone_url: "https://github.com/jaybenaim/bootstrap.git",
-    svn_url: "https://github.com/jaybenaim/bootstrap",
-    homepage: null,
-    size: 1,
-
-    language: "HTML",
-
-    has_pages: false,
-
-    license: null,
-    forks: 0,
-    open_issues: 0,
-    watchers: 0,
-    default_branch: "master",
-  },
-  {
     id: 202930502,
     node_id: "MDEwOlJlcG9zaXRvcnkyMDI5MzA1MDI=",
     name: "callbacks_exercises",
     full_name: "jaybenaim/callbacks_exercises",
     private: false,
-
     html_url: "https://github.com/jaybenaim/callbacks_exercises",
-    description: null,
+    description: "JavaScript practice",
     fork: true,
     url: "https://api.github.com/repos/jaybenaim/callbacks_exercises",
     forks_url:
@@ -1248,7 +682,7 @@ const repos = [
     private: false,
     favourite: false,
     html_url: "https://github.com/jaybenaim/card_games",
-    description: "",
+    description: "Collection of card games built with Django and React",
     fork: false,
     url: "https://api.github.com/repos/jaybenaim/card_games",
     forks_url: "https://api.github.com/repos/jaybenaim/card_games/forks",
@@ -1324,11 +758,8 @@ const repos = [
     svn_url: "https://github.com/jaybenaim/card_games",
     homepage: "",
     size: 9947,
-
-    language: "JavaScript",
-
+    language: "Python",
     has_pages: true,
-
     license: null,
     forks: 0,
     open_issues: 1,
@@ -1338,12 +769,12 @@ const repos = [
   {
     id: 227744973,
     node_id: "MDEwOlJlcG9zaXRvcnkyMjc3NDQ5NzM=",
-    name: "card_games_2",
+    name: "Rails Auth",
     full_name: "jaybenaim/card_games_2",
     private: false,
 
     html_url: "https://github.com/jaybenaim/card_games_2",
-    description: null,
+    description: "Rails authentication with Devise",
     fork: false,
     url: "https://api.github.com/repos/jaybenaim/card_games_2",
     forks_url: "https://api.github.com/repos/jaybenaim/card_games_2/forks",
@@ -1438,9 +869,8 @@ const repos = [
     name: "catch_game",
     full_name: "jaybenaim/catch_game",
     private: false,
-
     html_url: "https://github.com/jaybenaim/catch_game",
-    description: null,
+    description: "Game created using Sketch",
     fork: false,
     url: "https://api.github.com/repos/jaybenaim/catch_game",
     forks_url: "https://api.github.com/repos/jaybenaim/catch_game/forks",
@@ -1527,214 +957,15 @@ const repos = [
     watchers: 0,
     default_branch: "master",
   },
-  {
-    id: 194921549,
-    node_id: "MDEwOlJlcG9zaXRvcnkxOTQ5MjE1NDk=",
-    name: "collaborative_writing",
-    full_name: "jaybenaim/collaborative_writing",
-    private: false,
 
-    html_url: "https://github.com/jaybenaim/collaborative_writing",
-    description: null,
-    fork: true,
-    url: "https://api.github.com/repos/jaybenaim/collaborative_writing",
-    forks_url:
-      "https://api.github.com/repos/jaybenaim/collaborative_writing/forks",
-    keys_url:
-      "https://api.github.com/repos/jaybenaim/collaborative_writing/keys{/key_id}",
-    collaborators_url:
-      "https://api.github.com/repos/jaybenaim/collaborative_writing/collaborators{/collaborator}",
-    teams_url:
-      "https://api.github.com/repos/jaybenaim/collaborative_writing/teams",
-    hooks_url:
-      "https://api.github.com/repos/jaybenaim/collaborative_writing/hooks",
-    issue_events_url:
-      "https://api.github.com/repos/jaybenaim/collaborative_writing/issues/events{/number}",
-    events_url:
-      "https://api.github.com/repos/jaybenaim/collaborative_writing/events",
-    assignees_url:
-      "https://api.github.com/repos/jaybenaim/collaborative_writing/assignees{/user}",
-    branches_url:
-      "https://api.github.com/repos/jaybenaim/collaborative_writing/branches{/branch}",
-    tags_url:
-      "https://api.github.com/repos/jaybenaim/collaborative_writing/tags",
-    blobs_url:
-      "https://api.github.com/repos/jaybenaim/collaborative_writing/git/blobs{/sha}",
-    git_tags_url:
-      "https://api.github.com/repos/jaybenaim/collaborative_writing/git/tags{/sha}",
-
-    trees_url:
-      "https://api.github.com/repos/jaybenaim/collaborative_writing/git/trees{/sha}",
-    statuses_url:
-      "https://api.github.com/repos/jaybenaim/collaborative_writing/statuses/{sha}",
-    languages_url:
-      "https://api.github.com/repos/jaybenaim/collaborative_writing/languages",
-    stargazers_url:
-      "https://api.github.com/repos/jaybenaim/collaborative_writing/stargazers",
-    contributors_url:
-      "https://api.github.com/repos/jaybenaim/collaborative_writing/contributors",
-    subscribers_url:
-      "https://api.github.com/repos/jaybenaim/collaborative_writing/subscribers",
-    subscription_url:
-      "https://api.github.com/repos/jaybenaim/collaborative_writing/subscription",
-    commits_url:
-      "https://api.github.com/repos/jaybenaim/collaborative_writing/commits{/sha}",
-    git_commits_url:
-      "https://api.github.com/repos/jaybenaim/collaborative_writing/git/commits{/sha}",
-    comments_url:
-      "https://api.github.com/repos/jaybenaim/collaborative_writing/comments{/number}",
-    issue_comment_url:
-      "https://api.github.com/repos/jaybenaim/collaborative_writing/issues/comments{/number}",
-    contents_url:
-      "https://api.github.com/repos/jaybenaim/collaborative_writing/contents/{+path}",
-    compare_url:
-      "https://api.github.com/repos/jaybenaim/collaborative_writing/compare/{base}...{head}",
-    merges_url:
-      "https://api.github.com/repos/jaybenaim/collaborative_writing/merges",
-    archive_url:
-      "https://api.github.com/repos/jaybenaim/collaborative_writing/{archive_format}{/ref}",
-    downloads_url:
-      "https://api.github.com/repos/jaybenaim/collaborative_writing/downloads",
-    issues_url:
-      "https://api.github.com/repos/jaybenaim/collaborative_writing/issues{/number}",
-    pulls_url:
-      "https://api.github.com/repos/jaybenaim/collaborative_writing/pulls{/number}",
-    milestones_url:
-      "https://api.github.com/repos/jaybenaim/collaborative_writing/milestones{/number}",
-    notifications_url:
-      "https://api.github.com/repos/jaybenaim/collaborative_writing/notifications{?since,all,participating}",
-    labels_url:
-      "https://api.github.com/repos/jaybenaim/collaborative_writing/labels{/name}",
-    releases_url:
-      "https://api.github.com/repos/jaybenaim/collaborative_writing/releases{/id}",
-    deployments_url:
-      "https://api.github.com/repos/jaybenaim/collaborative_writing/deployments",
-    created_at: "2019-07-02T19:16:07Z",
-    updated_at: "2019-07-02T19:16:10Z",
-    pushed_at: "2019-07-02T19:15:00Z",
-    git_url: "git://github.com/jaybenaim/collaborative_writing.git",
-    ssh_url: "git@github.com:jaybenaim/collaborative_writing.git",
-    clone_url: "https://github.com/jaybenaim/collaborative_writing.git",
-    svn_url: "https://github.com/jaybenaim/collaborative_writing",
-    homepage: null,
-    size: 2,
-
-    language: null,
-
-    has_pages: false,
-
-    license: null,
-    forks: 0,
-    open_issues: 0,
-    watchers: 0,
-    default_branch: "master",
-  },
-
-  {
-    id: 206442593,
-    node_id: "MDEwOlJlcG9zaXRvcnkyMDY0NDI1OTM=",
-    name: "community_front",
-    full_name: "jaybenaim/community_front",
-    private: false,
-
-    html_url: "https://github.com/jaybenaim/community_front",
-    description: null,
-    fork: false,
-    url: "https://api.github.com/repos/jaybenaim/community_front",
-    forks_url: "https://api.github.com/repos/jaybenaim/community_front/forks",
-    keys_url:
-      "https://api.github.com/repos/jaybenaim/community_front/keys{/key_id}",
-    collaborators_url:
-      "https://api.github.com/repos/jaybenaim/community_front/collaborators{/collaborator}",
-    teams_url: "https://api.github.com/repos/jaybenaim/community_front/teams",
-    hooks_url: "https://api.github.com/repos/jaybenaim/community_front/hooks",
-    issue_events_url:
-      "https://api.github.com/repos/jaybenaim/community_front/issues/events{/number}",
-    events_url: "https://api.github.com/repos/jaybenaim/community_front/events",
-    assignees_url:
-      "https://api.github.com/repos/jaybenaim/community_front/assignees{/user}",
-    branches_url:
-      "https://api.github.com/repos/jaybenaim/community_front/branches{/branch}",
-    tags_url: "https://api.github.com/repos/jaybenaim/community_front/tags",
-    blobs_url:
-      "https://api.github.com/repos/jaybenaim/community_front/git/blobs{/sha}",
-    git_tags_url:
-      "https://api.github.com/repos/jaybenaim/community_front/git/tags{/sha}",
-
-    trees_url:
-      "https://api.github.com/repos/jaybenaim/community_front/git/trees{/sha}",
-    statuses_url:
-      "https://api.github.com/repos/jaybenaim/community_front/statuses/{sha}",
-    languages_url:
-      "https://api.github.com/repos/jaybenaim/community_front/languages",
-    stargazers_url:
-      "https://api.github.com/repos/jaybenaim/community_front/stargazers",
-    contributors_url:
-      "https://api.github.com/repos/jaybenaim/community_front/contributors",
-    subscribers_url:
-      "https://api.github.com/repos/jaybenaim/community_front/subscribers",
-    subscription_url:
-      "https://api.github.com/repos/jaybenaim/community_front/subscription",
-    commits_url:
-      "https://api.github.com/repos/jaybenaim/community_front/commits{/sha}",
-    git_commits_url:
-      "https://api.github.com/repos/jaybenaim/community_front/git/commits{/sha}",
-    comments_url:
-      "https://api.github.com/repos/jaybenaim/community_front/comments{/number}",
-    issue_comment_url:
-      "https://api.github.com/repos/jaybenaim/community_front/issues/comments{/number}",
-    contents_url:
-      "https://api.github.com/repos/jaybenaim/community_front/contents/{+path}",
-    compare_url:
-      "https://api.github.com/repos/jaybenaim/community_front/compare/{base}...{head}",
-    merges_url: "https://api.github.com/repos/jaybenaim/community_front/merges",
-    archive_url:
-      "https://api.github.com/repos/jaybenaim/community_front/{archive_format}{/ref}",
-    downloads_url:
-      "https://api.github.com/repos/jaybenaim/community_front/downloads",
-    issues_url:
-      "https://api.github.com/repos/jaybenaim/community_front/issues{/number}",
-    pulls_url:
-      "https://api.github.com/repos/jaybenaim/community_front/pulls{/number}",
-    milestones_url:
-      "https://api.github.com/repos/jaybenaim/community_front/milestones{/number}",
-    notifications_url:
-      "https://api.github.com/repos/jaybenaim/community_front/notifications{?since,all,participating}",
-    labels_url:
-      "https://api.github.com/repos/jaybenaim/community_front/labels{/name}",
-    releases_url:
-      "https://api.github.com/repos/jaybenaim/community_front/releases{/id}",
-    deployments_url:
-      "https://api.github.com/repos/jaybenaim/community_front/deployments",
-    created_at: "2019-09-05T00:49:16Z",
-    updated_at: "2019-09-05T00:49:22Z",
-    pushed_at: "2019-09-05T00:49:20Z",
-    git_url: "git://github.com/jaybenaim/community_front.git",
-    ssh_url: "git@github.com:jaybenaim/community_front.git",
-    clone_url: "https://github.com/jaybenaim/community_front.git",
-    svn_url: "https://github.com/jaybenaim/community_front",
-    homepage: "",
-    size: 154,
-
-    language: "JavaScript",
-
-    has_pages: false,
-
-    license: null,
-    forks: 0,
-    open_issues: 0,
-    watchers: 0,
-    default_branch: "master",
-  },
   {
     id: 249620402,
     node_id: "MDEwOlJlcG9zaXRvcnkyNDk2MjA0MDI=",
     name: "cookiesnyum",
     full_name: "jaybenaim/cookiesnyum",
     private: false,
-
     html_url: "https://github.com/jaybenaim/cookiesnyum",
-    description: null,
+    description: "E-commerce site built for a previous client.",
     fork: false,
     url: "https://api.github.com/repos/jaybenaim/cookiesnyum",
     forks_url: "https://api.github.com/repos/jaybenaim/cookiesnyum/forks",
@@ -1815,7 +1046,7 @@ const repos = [
     language: "JavaScript",
 
     has_pages: true,
-
+    favourite: true,
     license: null,
     forks: 0,
     open_issues: 0,
@@ -1829,9 +1060,10 @@ const repos = [
     name: "CovidApi",
     full_name: "jaybenaim/CovidApi",
     private: false,
-
-    html_url: "https://github.com/jaybenaim/CovidApi",
-    description: null,
+    favourite: true,
+    deployed_url: "https://covid-stats-canada.herokuapp.com/",
+    html_url: "https://covid-stats-canada.herokuapp.com/",
+    description: "Covid-19 stats finder for Canada. Build with Angular.js",
     fork: false,
     url: "https://api.github.com/repos/jaybenaim/CovidApi",
     forks_url: "https://api.github.com/repos/jaybenaim/CovidApi/forks",
@@ -1903,11 +1135,8 @@ const repos = [
     svn_url: "https://github.com/jaybenaim/CovidApi",
     homepage: "",
     size: 1782,
-
     language: "TypeScript",
-
-    has_pages: false,
-
+    has_pages: true,
     license: null,
     forks: 0,
     open_issues: 0,
@@ -1920,7 +1149,6 @@ const repos = [
     name: "Crowd_Surfer-day26-wdi",
     full_name: "jaybenaim/Crowd_Surfer-day26-wdi",
     private: false,
-
     html_url: "https://github.com/jaybenaim/Crowd_Surfer-day26-wdi",
     description: null,
     fork: false,
@@ -3133,7 +2361,7 @@ const repos = [
     private: false,
 
     html_url: "https://github.com/jaybenaim/dateMe",
-    description: null,
+    description: "Tinder style dating app. Built with react-redux-firebase",
     fork: false,
     url: "https://api.github.com/repos/jaybenaim/dateMe",
     forks_url: "https://api.github.com/repos/jaybenaim/dateMe/forks",
@@ -3216,9 +2444,8 @@ const repos = [
     name: "day-20-reinforcements",
     full_name: "jaybenaim/day-20-reinforcements",
     private: false,
-
     html_url: "https://github.com/jaybenaim/day-20-reinforcements",
-    description: null,
+    description: "",
     fork: false,
     url: "https://api.github.com/repos/jaybenaim/day-20-reinforcements",
     forks_url:
@@ -6039,6 +5266,7 @@ const repos = [
     name: "greathomes",
     full_name: "jaybenaim/greathomes",
     private: false,
+    favourite: true,
 
     html_url: "https://github.com/jaybenaim/greathomes",
     description:
@@ -6638,6 +5866,7 @@ const repos = [
     name: "html5Game",
     full_name: "jaybenaim/html5Game",
     private: false,
+    favourite: true,
 
     html_url: "https://github.com/jaybenaim/html5Game",
     description: null,
@@ -7192,6 +6421,7 @@ const repos = [
     name: "isaacs-home-services",
     full_name: "jaybenaim/isaacs-home-services",
     private: false,
+    favourite: true,
 
     html_url: "https://github.com/jaybenaim/isaacs-home-services",
     description: null,
@@ -8548,12 +7778,14 @@ const repos = [
   {
     id: 270691860,
     node_id: "MDEwOlJlcG9zaXRvcnkyNzA2OTE4NjA=",
-    name: "Mintbean-hackathon-june-8-2020",
+    name: "Mintbean-hackathon-june-8-2020 - Colour palette generator",
     full_name: "jaybenaim/Mintbean-hackathon-june-8-2020",
     private: false,
-
+    favourite: true,
+    deployed_url: "https://hackathon-mintbean.herokuapp.com/#/",
     html_url: "https://github.com/jaybenaim/Mintbean-hackathon-june-8-2020",
-    description: null,
+    description:
+      "Solo 4-hour hackathon. The challenge was to create a color palette generator ",
     fork: false,
     url:
       "https://api.github.com/repos/jaybenaim/Mintbean-hackathon-june-8-2020",
@@ -9206,6 +8438,7 @@ const repos = [
     name: "new-portfolio",
     full_name: "jaybenaim/new-portfolio",
     private: false,
+    favourite: true,
 
     html_url: "https://github.com/jaybenaim/new-portfolio",
     description: null,
@@ -10700,117 +9933,21 @@ const repos = [
     svn_url: "https://github.com/jaybenaim/PokeGifs",
     homepage: "",
     size: 27,
-
     language: "Python",
-
     has_pages: false,
-
     license: null,
     forks: 0,
     open_issues: 1,
     watchers: 0,
     default_branch: "master",
   },
-  {
-    id: 215599559,
-    node_id: "MDEwOlJlcG9zaXRvcnkyMTU1OTk1NTk=",
-    name: "portfolio",
-    full_name: "jaybenaim/portfolio",
-    private: false,
 
-    html_url: "https://github.com/jaybenaim/portfolio",
-    description: null,
-    fork: false,
-    url: "https://api.github.com/repos/jaybenaim/portfolio",
-    forks_url: "https://api.github.com/repos/jaybenaim/portfolio/forks",
-    keys_url: "https://api.github.com/repos/jaybenaim/portfolio/keys{/key_id}",
-    collaborators_url:
-      "https://api.github.com/repos/jaybenaim/portfolio/collaborators{/collaborator}",
-    teams_url: "https://api.github.com/repos/jaybenaim/portfolio/teams",
-    hooks_url: "https://api.github.com/repos/jaybenaim/portfolio/hooks",
-    issue_events_url:
-      "https://api.github.com/repos/jaybenaim/portfolio/issues/events{/number}",
-    events_url: "https://api.github.com/repos/jaybenaim/portfolio/events",
-    assignees_url:
-      "https://api.github.com/repos/jaybenaim/portfolio/assignees{/user}",
-    branches_url:
-      "https://api.github.com/repos/jaybenaim/portfolio/branches{/branch}",
-    tags_url: "https://api.github.com/repos/jaybenaim/portfolio/tags",
-    blobs_url:
-      "https://api.github.com/repos/jaybenaim/portfolio/git/blobs{/sha}",
-    git_tags_url:
-      "https://api.github.com/repos/jaybenaim/portfolio/git/tags{/sha}",
-
-    trees_url:
-      "https://api.github.com/repos/jaybenaim/portfolio/git/trees{/sha}",
-    statuses_url:
-      "https://api.github.com/repos/jaybenaim/portfolio/statuses/{sha}",
-    languages_url: "https://api.github.com/repos/jaybenaim/portfolio/languages",
-    stargazers_url:
-      "https://api.github.com/repos/jaybenaim/portfolio/stargazers",
-    contributors_url:
-      "https://api.github.com/repos/jaybenaim/portfolio/contributors",
-    subscribers_url:
-      "https://api.github.com/repos/jaybenaim/portfolio/subscribers",
-    subscription_url:
-      "https://api.github.com/repos/jaybenaim/portfolio/subscription",
-    commits_url:
-      "https://api.github.com/repos/jaybenaim/portfolio/commits{/sha}",
-    git_commits_url:
-      "https://api.github.com/repos/jaybenaim/portfolio/git/commits{/sha}",
-    comments_url:
-      "https://api.github.com/repos/jaybenaim/portfolio/comments{/number}",
-    issue_comment_url:
-      "https://api.github.com/repos/jaybenaim/portfolio/issues/comments{/number}",
-    contents_url:
-      "https://api.github.com/repos/jaybenaim/portfolio/contents/{+path}",
-    compare_url:
-      "https://api.github.com/repos/jaybenaim/portfolio/compare/{base}...{head}",
-    merges_url: "https://api.github.com/repos/jaybenaim/portfolio/merges",
-    archive_url:
-      "https://api.github.com/repos/jaybenaim/portfolio/{archive_format}{/ref}",
-    downloads_url: "https://api.github.com/repos/jaybenaim/portfolio/downloads",
-    issues_url:
-      "https://api.github.com/repos/jaybenaim/portfolio/issues{/number}",
-    pulls_url:
-      "https://api.github.com/repos/jaybenaim/portfolio/pulls{/number}",
-    milestones_url:
-      "https://api.github.com/repos/jaybenaim/portfolio/milestones{/number}",
-    notifications_url:
-      "https://api.github.com/repos/jaybenaim/portfolio/notifications{?since,all,participating}",
-    labels_url:
-      "https://api.github.com/repos/jaybenaim/portfolio/labels{/name}",
-    releases_url:
-      "https://api.github.com/repos/jaybenaim/portfolio/releases{/id}",
-    deployments_url:
-      "https://api.github.com/repos/jaybenaim/portfolio/deployments",
-    created_at: "2019-10-16T16:56:02Z",
-    updated_at: "2019-10-16T18:52:21Z",
-    pushed_at: "2019-10-16T18:57:25Z",
-    git_url: "git://github.com/jaybenaim/portfolio.git",
-    ssh_url: "git@github.com:jaybenaim/portfolio.git",
-    clone_url: "https://github.com/jaybenaim/portfolio.git",
-    svn_url: "https://github.com/jaybenaim/portfolio",
-    homepage: "",
-    size: 1218,
-
-    language: "JavaScript",
-
-    has_pages: true,
-
-    license: null,
-    forks: 0,
-    open_issues: 0,
-    watchers: 0,
-    default_branch: "master",
-  },
   {
     id: 244101361,
     node_id: "MDEwOlJlcG9zaXRvcnkyNDQxMDEzNjE=",
     name: "portfolio-backend",
     full_name: "jaybenaim/portfolio-backend",
     private: false,
-
     html_url: "https://github.com/jaybenaim/portfolio-backend",
     description: null,
     fork: false,
@@ -11178,116 +10315,11 @@ const repos = [
     svn_url: "https://github.com/jaybenaim/PostRequestDemo",
     homepage: null,
     size: 591,
-
     language: "JavaScript",
-
     has_pages: false,
-
     license: null,
     forks: 0,
     open_issues: 0,
-    watchers: 0,
-    default_branch: "master",
-  },
-  {
-    id: 218845524,
-    node_id: "MDEwOlJlcG9zaXRvcnkyMTg4NDU1MjQ=",
-    name: "productLanding",
-    full_name: "jaybenaim/productLanding",
-    private: false,
-
-    html_url: "https://github.com/jaybenaim/productLanding",
-    description: null,
-    fork: false,
-    url: "https://api.github.com/repos/jaybenaim/productLanding",
-    forks_url: "https://api.github.com/repos/jaybenaim/productLanding/forks",
-    keys_url:
-      "https://api.github.com/repos/jaybenaim/productLanding/keys{/key_id}",
-    collaborators_url:
-      "https://api.github.com/repos/jaybenaim/productLanding/collaborators{/collaborator}",
-    teams_url: "https://api.github.com/repos/jaybenaim/productLanding/teams",
-    hooks_url: "https://api.github.com/repos/jaybenaim/productLanding/hooks",
-    issue_events_url:
-      "https://api.github.com/repos/jaybenaim/productLanding/issues/events{/number}",
-    events_url: "https://api.github.com/repos/jaybenaim/productLanding/events",
-    assignees_url:
-      "https://api.github.com/repos/jaybenaim/productLanding/assignees{/user}",
-    branches_url:
-      "https://api.github.com/repos/jaybenaim/productLanding/branches{/branch}",
-    tags_url: "https://api.github.com/repos/jaybenaim/productLanding/tags",
-    blobs_url:
-      "https://api.github.com/repos/jaybenaim/productLanding/git/blobs{/sha}",
-    git_tags_url:
-      "https://api.github.com/repos/jaybenaim/productLanding/git/tags{/sha}",
-
-    trees_url:
-      "https://api.github.com/repos/jaybenaim/productLanding/git/trees{/sha}",
-    statuses_url:
-      "https://api.github.com/repos/jaybenaim/productLanding/statuses/{sha}",
-    languages_url:
-      "https://api.github.com/repos/jaybenaim/productLanding/languages",
-    stargazers_url:
-      "https://api.github.com/repos/jaybenaim/productLanding/stargazers",
-    contributors_url:
-      "https://api.github.com/repos/jaybenaim/productLanding/contributors",
-    subscribers_url:
-      "https://api.github.com/repos/jaybenaim/productLanding/subscribers",
-    subscription_url:
-      "https://api.github.com/repos/jaybenaim/productLanding/subscription",
-    commits_url:
-      "https://api.github.com/repos/jaybenaim/productLanding/commits{/sha}",
-    git_commits_url:
-      "https://api.github.com/repos/jaybenaim/productLanding/git/commits{/sha}",
-    comments_url:
-      "https://api.github.com/repos/jaybenaim/productLanding/comments{/number}",
-    issue_comment_url:
-      "https://api.github.com/repos/jaybenaim/productLanding/issues/comments{/number}",
-    contents_url:
-      "https://api.github.com/repos/jaybenaim/productLanding/contents/{+path}",
-    compare_url:
-      "https://api.github.com/repos/jaybenaim/productLanding/compare/{base}...{head}",
-    merges_url: "https://api.github.com/repos/jaybenaim/productLanding/merges",
-    archive_url:
-      "https://api.github.com/repos/jaybenaim/productLanding/{archive_format}{/ref}",
-    downloads_url:
-      "https://api.github.com/repos/jaybenaim/productLanding/downloads",
-    issues_url:
-      "https://api.github.com/repos/jaybenaim/productLanding/issues{/number}",
-    pulls_url:
-      "https://api.github.com/repos/jaybenaim/productLanding/pulls{/number}",
-    milestones_url:
-      "https://api.github.com/repos/jaybenaim/productLanding/milestones{/number}",
-    notifications_url:
-      "https://api.github.com/repos/jaybenaim/productLanding/notifications{?since,all,participating}",
-    labels_url:
-      "https://api.github.com/repos/jaybenaim/productLanding/labels{/name}",
-    releases_url:
-      "https://api.github.com/repos/jaybenaim/productLanding/releases{/id}",
-    deployments_url:
-      "https://api.github.com/repos/jaybenaim/productLanding/deployments",
-    created_at: "2019-10-31T19:32:46Z",
-    updated_at: "2019-10-31T19:36:40Z",
-    pushed_at: "2020-07-18T16:42:46Z",
-    git_url: "git://github.com/jaybenaim/productLanding.git",
-    ssh_url: "git@github.com:jaybenaim/productLanding.git",
-    clone_url: "https://github.com/jaybenaim/productLanding.git",
-    svn_url: "https://github.com/jaybenaim/productLanding",
-    homepage: "",
-    size: 2450,
-
-    language: "HTML",
-
-    has_pages: true,
-
-    license: {
-      key: "mit",
-      name: "MIT License",
-      spdx_id: "MIT",
-      url: "https://api.github.com/licenses/mit",
-      node_id: "MDc6TGljZW5zZTEz",
-    },
-    forks: 0,
-    open_issues: 2,
     watchers: 0,
     default_branch: "master",
   },

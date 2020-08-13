@@ -44,27 +44,13 @@ const getRepos = (req, res) => {
   return res.status(200).send(next20Repos);
 };
 
+// control filter clicks
 const filterRepos = (req, res) => {
   let currentRepos = repos();
   let { filter } = req.query;
   switch (filter) {
     case "favourites":
       currentRepos = currentRepos.filter((repo) => repo.favourite);
-      res.status(200).send(currentRepos);
-      break;
-    case "deployed":
-      currentRepos = currentRepos.filter((repo) => {
-        let name = repo.name.toLowerCase();
-        let deployed = repo.has_pages;
-        return deployed
-          ? deployed
-          : name.includes("cookies") ||
-              name.includes("highly") ||
-              name.includes("estate") ||
-              name.includes("job") ||
-              name.includes("dev") ||
-              name.includes("html5");
-      });
       res.status(200).send(currentRepos);
       break;
     case "wdi":
@@ -80,6 +66,38 @@ const filterRepos = (req, res) => {
       });
       res.status(200).send(currentRepos);
       break;
+
+    case "games":
+      currentRepos = currentRepos.filter((repo) => {
+        let name = repo.name.toLowerCase();
+
+        return name.includes("html5game") || name.includes("game");
+      });
+      res.status(200).send(currentRepos);
+      break;
+
+    case "javascript":
+      currentRepos = currentRepos.filter((repo) => {
+        let name = repo.name.toLowerCase();
+        let language = repo.language ? repo.language.toLowerCase() : "unknown";
+
+        return (
+          name.includes("javascript") ||
+          name.includes("java") ||
+          language.includes("javascript")
+        );
+      });
+      res.status(200).send(currentRepos);
+      break;
+
+    case "react":
+      currentRepos = currentRepos.filter((repo) => {
+        let name = repo.name.toLowerCase();
+        return name.includes("react") || name.includes("cookies");
+      });
+      res.status(200).send(currentRepos);
+      break;
+
     case "angular":
       currentRepos = currentRepos.filter((repo) => {
         let name = repo.name.toLowerCase();
@@ -93,26 +111,51 @@ const filterRepos = (req, res) => {
       });
       res.status(200).send(currentRepos);
       break;
-    case "games":
+
+    case "python":
       currentRepos = currentRepos.filter((repo) => {
         let name = repo.name.toLowerCase();
+        let language = repo.language ? repo.language.toLowerCase() : "unknown";
 
-        return name.includes("html5game") || name.includes("game");
+        return (
+          name.includes("python") ||
+          name.includes("django") ||
+          language.includes("python")
+        );
       });
       res.status(200).send(currentRepos);
       break;
 
-    default:
-      let defaultRepos = currentRepos.filter(
-        ({ name, language = "unknown" }) => {
-          let filter = filter.toLowerCase();
-          language = repo.language.toLowerCase();
-          filter = filter.toLowerCase();
+    case "ruby":
+      currentRepos = currentRepos.filter((repo) => {
+        let name = repo.name.toLowerCase();
+        let language = repo.language ? repo.language.toLowerCase() : "unknown";
+        return (
+          name.includes("ruby") ||
+          name.includes("rails") ||
+          language.includes("ruby")
+        );
+      });
+      res.status(200).send(currentRepos);
+      break;
 
-          return name.includes(filter) || language.includes(filter);
-        }
-      );
-      res.status(200).send(defaultRepos);
+    case "deployed":
+      currentRepos = currentRepos.filter((repo) => {
+        let name = repo.name.toLowerCase();
+        let deployed = repo.has_pages;
+        return deployed
+          ? deployed
+          : name.includes("cookies") ||
+              name.includes("highly") ||
+              name.includes("estate") ||
+              name.includes("job") ||
+              name.includes("dev") ||
+              name.includes("html5");
+      });
+      res.status(200).send(currentRepos);
+      break;
+    default:
+      res.status(200).send(currentRepos);
   }
 };
 module.exports = { getRepos, filterRepos, getLanguages };
